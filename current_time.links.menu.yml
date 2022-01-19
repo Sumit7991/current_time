@@ -1,0 +1,5 @@
+current_time.settings:
+  title: 'Current Time Block Configuration Form'
+  description: 'Configuration Form for Current Time custom block'
+  parent: system.admin_config
+  route_name: current_time.settings

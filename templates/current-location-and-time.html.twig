@@ -1,0 +1,16 @@
+{#
+Available variables:
+country - Entered country name in Current Time Congifuration Form
+city - Entered country name in Current Time Congifuration Form
+time - current time in "jS M Y - g:i A" format For example: 25th Oct 2019 - 10:30 PM 
+#}
+<div class="location-time-block">
+    <div class="location-container">
+        <span>{{ 'Location'|t }} : </span>
+        <span>{{ city }}, {{ country }}</span>
+    </div>
+    <div class="time-container">
+        <span>{{ 'Current Time'|t }} : </span>
+        <span id="current-time">{{ time }}</span>
+    </div>
+</div>

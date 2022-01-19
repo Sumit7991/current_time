@@ -1,0 +1,3 @@
+current-time-script:
+  js:
+    js/currenttime.js: {}

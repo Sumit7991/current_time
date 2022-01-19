@@ -1,0 +1,15 @@
+current_time.settings:
+  path: '/admin/config/current_time/settings'
+  defaults:
+    _form: '\Drupal\current_time\Form\CurrentTimeConfigForm'
+    _title: 'Current Time Block Configuration Form'
+  requirements:
+    _permission: 'administer site configuration'
+current_time.updated_time:
+  path: '/ajax/get-updated-time'
+  defaults:
+    _controller: '\Drupal\current_time\Controller\UpdateTime::getUpdatedTime'
+  methods: [GET]
+  requirements:
+    _permission: 'access content'
+    _format: json

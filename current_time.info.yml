@@ -1,0 +1,7 @@
+name: Current Time
+description: This module creates a custom block plugin to show current time based on selected timezone.
+package: Custom
+type: module
+core_version_requirement: ^9
+
+configure: current_time.settings
