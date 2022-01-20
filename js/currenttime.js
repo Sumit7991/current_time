@@ -19,7 +19,6 @@
             url: Drupal.url('/ajax/get-updated-time'),
             dataType: "json",
             success: function(result) {
-                console.log(result);
                 $('.time-container #current-time').text(result);
             }
         });
